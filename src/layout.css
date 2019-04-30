@@ -1,0 +1,27 @@
+#root .logo {
+  height: 32px;
+  background: url(./deep_eye_logo.png) no-repeat center;
+  margin: 16px;
+}
+
+#table_id .ant-spin-container,
+#table_id .ant-spin-nested-loading,
+#table_id .ant-table-wrapper,
+#table_id {
+  height: 100%;
+}
+#table_id .ant-table-pagination.ant-pagination {
+  float: right;
+  margin: 16px 0;
+  /* position: absolute; */
+  right: 0px;
+  bottom: 0px;
+}
+.headerspan {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
